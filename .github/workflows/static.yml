@@ -5,13 +5,13 @@ on:
     branches: [ master ]
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout Repo
-      uses: actions/checkout@v2
-    - name: Deploy
-      uses: JamesIves/github-pages-deploy-action@4.1.4
+      uses: actions/checkout@main
+    - name: Build and Deploy
+      uses: JamesIves/github-pages-deploy-action@main
       with:
         branch: master
         folder: html
