@@ -16,5 +16,6 @@ jobs:
         branch: master
         folder: html
     env:
-      URL: https://bonfire8458.github.io/test2/
+      name: github-pages
+      url: https://bonfire8458.github.io/test2/
 
