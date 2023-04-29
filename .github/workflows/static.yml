@@ -10,7 +10,7 @@ permissions:
   pages: write
   id-token: write
 
-default:
+defaults:
   run:
     shell: bash
 
