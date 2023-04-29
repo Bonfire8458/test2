@@ -16,5 +16,5 @@ jobs:
         branch: master
         folder: html
     env:
-      URL: https://your-github-username.github.io/your-repo-name/
+      URL: https://bonfire8458.github.io/test2/
 
